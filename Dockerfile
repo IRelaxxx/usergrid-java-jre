@@ -13,6 +13,6 @@ RUN apt-get update && \
 RUN echo 'Europe/Berlin' > /etc/timezone && \
     dpkg-reconfigure tzdata
     
-ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
+ENV JAVA_HOME /usr/lib/jvm/java-14-openjdk-amd64/
     
 CMD ["bash"]
