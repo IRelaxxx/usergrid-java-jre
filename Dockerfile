@@ -6,7 +6,7 @@ RUN mkdir /usr/share/man/man1/
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y --no-install-recommends software-properties-common curl git htop unzip openjdk-11-jre-headless&& \
+    apt-get install -y --no-install-recommends software-properties-common curl git htop unzip openjdk-14-jre-headless&& \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
     
